@@ -1,40 +1,42 @@
 
+import { Code2, Database, Cloud, Server, Wrench, Terminal } from 'lucide-react';
+
 const Skills = () => {
   const skillCategories = [
     {
       title: 'Languages & Frameworks',
       skills: [
-        { name: 'C++', level: 90 },
-        { name: 'JavaScript', level: 88 },
-        { name: 'Python', level: 85 },
-        { name: 'SQL', level: 82 },
-        { name: 'React', level: 90 },
-        { name: 'Node.js', level: 85 },
-        { name: 'MongoDB', level: 80 }
+        { name: 'C++', icon: Code2, color: 'text-blue-400' },
+        { name: 'JavaScript', icon: Code2, color: 'text-yellow-400' },
+        { name: 'Python', icon: Code2, color: 'text-green-400' },
+        { name: 'SQL', icon: Database, color: 'text-orange-400' },
+        { name: 'React', icon: Code2, color: 'text-cyan-400' },
+        { name: 'Node.js', icon: Server, color: 'text-emerald-400' },
+        { name: 'MongoDB', icon: Database, color: 'text-green-500' }
       ],
       color: 'from-cyan-400 to-blue-500'
     },
     {
       title: 'DevOps & Cloud',
       skills: [
-        { name: 'AWS', level: 85 },
-        { name: 'Docker', level: 88 },
-        { name: 'Terraform', level: 80 },
-        { name: 'Jenkins', level: 82 },
-        { name: 'Azure', level: 75 },
-        { name: 'GitHub Actions', level: 85 }
+        { name: 'AWS', icon: Cloud, color: 'text-orange-400' },
+        { name: 'Docker', icon: Server, color: 'text-blue-400' },
+        { name: 'Terraform', icon: Wrench, color: 'text-purple-400' },
+        { name: 'Jenkins', icon: Wrench, color: 'text-red-400' },
+        { name: 'Azure', icon: Cloud, color: 'text-blue-500' },
+        { name: 'GitHub Actions', icon: Wrench, color: 'text-gray-400' }
       ],
       color: 'from-teal-400 to-emerald-500'
     },
     {
       title: 'Tools & Technologies',
       skills: [
-        { name: 'Prisma ORM', level: 85 },
-        { name: 'Kafka', level: 75 },
-        { name: 'Redis', level: 80 },
-        { name: 'WebSockets', level: 82 },
-        { name: 'Bash', level: 85 },
-        { name: 'Linux', level: 88 }
+        { name: 'Prisma ORM', icon: Database, color: 'text-indigo-400' },
+        { name: 'Kafka', icon: Server, color: 'text-red-500' },
+        { name: 'Redis', icon: Database, color: 'text-red-400' },
+        { name: 'WebSockets', icon: Server, color: 'text-green-400' },
+        { name: 'Bash', icon: Terminal, color: 'text-gray-300' },
+        { name: 'Linux', icon: Terminal, color: 'text-yellow-500' }
       ],
       color: 'from-orange-400 to-red-500'
     }
@@ -57,25 +59,24 @@ const Skills = () => {
                 {category.title}
               </h3>
 
-              <div className="space-y-4">
-                {category.skills.map((skill, skillIndex) => (
-                  <div key={skillIndex} className="group">
-                    <div className="flex justify-between items-center mb-2">
-                      <span className="text-blue-100 font-medium">{skill.name}</span>
-                      <span className="text-cyan-300 text-sm">{skill.level}%</span>
-                    </div>
-                    
-                    <div className="w-full bg-slate-700/50 rounded-full h-2 overflow-hidden">
-                      <div
-                        className={`h-full bg-gradient-to-r ${category.color} rounded-full transition-all duration-1000 ease-out group-hover:shadow-lg`}
-                        style={{ 
-                          width: `${skill.level}%`,
-                          animationDelay: `${skillIndex * 0.1}s`
-                        }}
+              <div className="grid grid-cols-2 gap-4">
+                {category.skills.map((skill, skillIndex) => {
+                  const IconComponent = skill.icon;
+                  return (
+                    <div 
+                      key={skillIndex} 
+                      className="group flex flex-col items-center p-3 rounded-xl bg-slate-700/30 hover:bg-slate-600/40 border border-slate-600/30 hover:border-cyan-400/30 transition-all duration-300 hover:scale-105"
+                    >
+                      <IconComponent 
+                        size={32} 
+                        className={`${skill.color} mb-2 group-hover:scale-110 transition-transform duration-300`} 
                       />
+                      <span className="text-blue-100 text-sm font-medium text-center">
+                        {skill.name}
+                      </span>
                     </div>
-                  </div>
-                ))}
+                  );
+                })}
               </div>
             </div>
           ))}
