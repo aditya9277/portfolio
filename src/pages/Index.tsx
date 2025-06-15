@@ -42,8 +42,8 @@ const Index = () => {
       <main className="relative z-10">
         <Hero />
         <About />
-        <Projects />
         <Experience />
+        <Projects />
         <Skills />
         <Achievements />
         <Contact />
