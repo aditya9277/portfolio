@@ -67,10 +67,10 @@ const Skills = () => {
                     
                     <div className="w-full bg-gray-700 rounded-full h-2 overflow-hidden">
                       <div
-                        className={`h-full bg-gradient-to-r ${category.color} rounded-full transition-all duration-1000 ease-out group-hover:shadow-lg`}
+                        className={`h-full bg-gradient-to-r ${category.color} rounded-full transition-all duration-1000 ease-out group-hover:shadow-lg animate-[slideIn_1s_ease-out_both]`}
                         style={{ 
                           width: `${skill.level}%`,
-                          animation: `slideIn 1s ease-out ${skillIndex * 0.1}s both`
+                          animationDelay: `${skillIndex * 0.1}s`
                         }}
                       />
                     </div>
@@ -101,17 +101,6 @@ const Skills = () => {
           </div>
         </div>
       </div>
-
-      <style jsx>{`
-        @keyframes slideIn {
-          from {
-            width: 0%;
-          }
-          to {
-            width: var(--target-width);
-          }
-        }
-      `}</style>
     </section>
   );
 };
