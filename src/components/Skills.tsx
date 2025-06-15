@@ -1,4 +1,3 @@
-
 const skillCategories = [
   {
     title: 'Languages & Frameworks',
@@ -39,7 +38,7 @@ const skillCategories = [
     skills: [
       {
         name: 'AWS',
-        logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg'
+        logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg'
       },
       {
         name: 'Docker',
@@ -69,7 +68,7 @@ const skillCategories = [
     skills: [
       {
         name: 'Prisma ORM',
-        logo: 'https://raw.githubusercontent.com/prisma/prisma-assets/main/Logo/prisma-logo.svg'
+        logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prisma/prisma-original.svg'
       },
       {
         name: 'Kafka',
@@ -81,7 +80,7 @@ const skillCategories = [
       },
       {
         name: 'WebSockets',
-        logo: 'https://upload.wikimedia.org/wikipedia/commons/7/7e/WebSocket-logo.png'
+        logo: 'https://cdn.jsdelivr.net/gh/tabler/tabler-icons/icons/bolt.svg'
       },
       {
         name: 'Bash',
