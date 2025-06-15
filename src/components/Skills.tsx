@@ -78,10 +78,10 @@ const skillCategories = [
         name: 'Redis',
         logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg'
       },
-      {
-        name: 'WebSockets',
-        logo: 'https://cdn.jsdelivr.net/gh/tabler/tabler-icons/icons/bolt.svg'
-      },
+      // {
+      //   name: 'WebSockets',
+      //   logo: 'https://cdn.jsdelivr.net/gh/tabler/tabler-icons/icons/bolt.svg'
+      // },
       {
         name: 'Bash',
         logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg'
