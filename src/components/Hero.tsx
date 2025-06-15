@@ -21,7 +21,7 @@ const Hero = () => {
   }, []);
 
   const scrollToProjects = () => {
-    document.getElementById('experience')?.scrollIntoView({ behavior: 'smooth' });
+    document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' });
   };
 
   return (
