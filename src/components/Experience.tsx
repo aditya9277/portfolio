@@ -4,18 +4,34 @@ import { Calendar, MapPin, ExternalLink } from 'lucide-react';
 const Experience = () => {
   const experiences = [
     {
+      company: 'Ernst & Young',
+      position: 'Software Developer Intern',
+      period: 'Summer 2025 – Ongoing',
+      location: 'Remote',
+      type: 'Internship',
+      description: 'Currently working on enterprise-level applications with modern web technologies.',
+      technologies: ['FastAPI', 'React', 'Material-UI', 'Tailwind CSS', 'Docker', 'Azure'],
+      achievements: [
+        'Developing scalable backend APIs using FastAPI',
+        'Building responsive frontend interfaces with React and MUI',
+        'Implementing containerized deployment strategies with Docker',
+        'Planning cloud infrastructure migration to Azure'
+      ],
+      status: 'current'
+    },
+    {
       company: 'Persistent Systems',
-      position: 'MERN Stack Developer Intern',
+      position: 'DevOps Engineer Intern',
       period: 'Nov 2024 – Apr 2025',
       location: 'Pune, India',
       type: 'Internship',
-      description: 'Specialized in building full-stack web applications using the MERN stack with modern development practices.',
-      technologies: ['MongoDB', 'Express.js', 'React', 'Node.js', 'JavaScript', 'REST APIs'],
+      description: 'Specialized in building robust DevOps pipelines and cloud infrastructure automation.',
+      technologies: ['Docker', 'Jenkins', 'AWS ECS', 'Terraform', 'CI/CD', 'Linux'],
       achievements: [
-        'Developed full-stack web applications using MERN stack',
-        'Built responsive frontend interfaces with React and modern CSS',
-        'Implemented RESTful APIs using Express.js and Node.js',
-        'Designed and managed MongoDB databases for optimal performance'
+        'Built comprehensive CI/CD pipelines using Jenkins',
+        'Automated container orchestration with AWS ECS',
+        'Implemented Infrastructure as Code using Terraform',
+        'Optimized deployment workflows reducing release time by 40%'
       ],
       status: 'completed'
     }

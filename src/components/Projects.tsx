@@ -4,45 +4,45 @@ import { ExternalLink, Github } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
-      name: 'E-Commerce Platform',
-      description: 'Full-featured e-commerce platform with real-time inventory management, secure payment processing, and advanced analytics dashboard',
-      image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Express.js', 'Stripe API'],
-      liveUrl: 'https://ecommerce-platform-demo.vercel.app',
+      name: 'ClientEase AI',
+      description: 'AI-powered client management platform with intelligent automation and analytics',
+      image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&fit=crop',
+      technologies: ['React', 'Node.js', 'AI/ML', 'MongoDB'],
+      liveUrl: 'https://client-ease-ai.vercel.app',
       githubUrl: '#',
       features: [
-        'Real-time inventory tracking and alerts',
-        'Secure payment gateway integration',
-        'Advanced sales analytics and reporting',
-        'Multi-vendor marketplace functionality'
+        'AI-driven client insights and recommendations',
+        'Automated workflow management',
+        'Real-time analytics dashboard',
+        'Intelligent task prioritization'
       ]
     },
     {
-      name: 'Healthcare Management System',
-      description: 'Comprehensive healthcare platform connecting patients, doctors, and hospitals with appointment scheduling and medical records',
-      image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&h=400&fit=crop',
-      technologies: ['React', 'Express.js', 'MongoDB', 'Node.js', 'Socket.io'],
-      liveUrl: 'https://healthcare-system-demo.vercel.app',
+      name: 'MockEdge AI Interview',
+      description: 'Advanced AI interview preparation platform with real-time feedback and analysis',
+      image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&h=400&fit=crop',
+      technologies: ['Next.js', 'AI/ML', 'WebRTC', 'Python'],
+      liveUrl: 'https://ai-interview-mocker-sepia.vercel.app',
       githubUrl: '#',
       features: [
-        'Online appointment booking system',
-        'Digital medical records management',
-        'Real-time doctor-patient consultation',
-        'Prescription and medication tracking'
+        'Real-time AI interview simulation',
+        'Behavioral analysis and feedback',
+        'Custom question generation',
+        'Performance tracking and insights'
       ]
     },
     {
-      name: 'Social Media Analytics Tool',
-      description: 'Advanced analytics platform for social media managers to track engagement, growth metrics, and content performance',
-      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Chart.js', 'Social APIs'],
+      name: 'Vyapar Sync',
+      description: 'Comprehensive business management solution with inventory and sales tracking',
+      image: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=600&h=400&fit=crop',
+      technologies: ['React', 'Express', 'PostgreSQL', 'Redis'],
       liveUrl: '#',
       githubUrl: '#',
       features: [
-        'Multi-platform social media integration',
-        'Real-time engagement analytics',
-        'Content performance optimization',
-        'Automated reporting and insights'
+        'Real-time inventory management',
+        'Sales analytics and reporting',
+        'Multi-store synchronization',
+        'Automated billing system'
       ]
     }
   ];
