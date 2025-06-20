@@ -4,45 +4,45 @@ import { ExternalLink, Github } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
-      name: 'TaskFlow Pro',
-      description: 'Comprehensive task management platform with intelligent automation and team collaboration',
-      image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&fit=crop',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Express.js'],
-      liveUrl: 'https://task-flow-pro.vercel.app',
+      name: 'E-Commerce Platform',
+      description: 'Full-featured e-commerce platform with real-time inventory management, secure payment processing, and advanced analytics dashboard',
+      image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop',
+      technologies: ['React', 'Node.js', 'MongoDB', 'Express.js', 'Stripe API'],
+      liveUrl: 'https://ecommerce-platform-demo.vercel.app',
       githubUrl: '#',
       features: [
-        'Smart task prioritization and scheduling',
-        'Real-time team collaboration tools',
-        'Advanced analytics dashboard',
-        'Automated workflow management'
+        'Real-time inventory tracking and alerts',
+        'Secure payment gateway integration',
+        'Advanced sales analytics and reporting',
+        'Multi-vendor marketplace functionality'
       ]
     },
     {
-      name: 'LearnHub Academy',
-      description: 'Interactive learning platform with personalized course recommendations and progress tracking',
-      image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&h=400&fit=crop',
-      technologies: ['React', 'Express.js', 'MongoDB', 'Node.js'],
-      liveUrl: 'https://learn-hub-academy.vercel.app',
+      name: 'Healthcare Management System',
+      description: 'Comprehensive healthcare platform connecting patients, doctors, and hospitals with appointment scheduling and medical records',
+      image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&h=400&fit=crop',
+      technologies: ['React', 'Express.js', 'MongoDB', 'Node.js', 'Socket.io'],
+      liveUrl: 'https://healthcare-system-demo.vercel.app',
       githubUrl: '#',
       features: [
-        'Personalized learning paths',
-        'Interactive video lessons',
-        'Progress tracking and certificates',
-        'Community discussion forums'
+        'Online appointment booking system',
+        'Digital medical records management',
+        'Real-time doctor-patient consultation',
+        'Prescription and medication tracking'
       ]
     },
     {
-      name: 'EcoTracker',
-      description: 'Environmental impact tracking application with sustainability insights and recommendations',
-      image: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=600&h=400&fit=crop',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Chart.js'],
+      name: 'Social Media Analytics Tool',
+      description: 'Advanced analytics platform for social media managers to track engagement, growth metrics, and content performance',
+      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop',
+      technologies: ['React', 'Node.js', 'MongoDB', 'Chart.js', 'Social APIs'],
       liveUrl: '#',
       githubUrl: '#',
       features: [
-        'Carbon footprint calculation',
-        'Sustainability goal tracking',
-        'Environmental impact visualization',
-        'Green habit recommendations'
+        'Multi-platform social media integration',
+        'Real-time engagement analytics',
+        'Content performance optimization',
+        'Automated reporting and insights'
       ]
     }
   ];

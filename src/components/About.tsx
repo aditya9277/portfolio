@@ -18,14 +18,14 @@ const About = () => {
             </p>
             
             <p className="text-lg md:text-xl leading-relaxed">
-              I've participated in several national-level hackathons, reaching grand finals and top positions, which has sharpened my ability to innovate under pressure and deliver results that matter. When I'm not coding, you'll find me solving algorithmic challenges or exploring the latest in web development and AI technologies.
+              I've participated in several national-level hackathons, reaching grand finals and top positions, which has sharpened my ability to innovate under pressure and deliver results that matter. When I'm not coding, you'll find me exploring the latest in web development and AI technologies.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
             <div className="text-center">
-              <div className="text-3xl font-bold text-cyan-400 mb-2">400+</div>
-              <div className="text-blue-300">DSA Problems Solved</div>
+              <div className="text-3xl font-bold text-cyan-400 mb-2">15+</div>
+              <div className="text-blue-300">Projects Completed</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold text-teal-400 mb-2">1</div>
