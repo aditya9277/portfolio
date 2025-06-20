@@ -29,7 +29,7 @@ const Hero = () => {
       <div className="max-w-6xl mx-auto text-center">
         <div className="mb-8">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-cyan-400 via-blue-400 to-teal-400 bg-clip-text text-transparent animate-fade-in">
-            Aditya Gupta
+            Tanushree Mishra
           </h1>
           
           <div className="h-20 mb-6">
@@ -41,7 +41,7 @@ const Hero = () => {
 
           <p className="text-lg md:text-xl text-blue-200 max-w-3xl mx-auto leading-relaxed">
             From scaling backend systems to building intuitive UIs, I create software that performs and impresses.
-            Currently pursuing B.Tech CSE at VIT Bhopal with hands-on experience at EY and Persistent Systems.
+            Currently pursuing B.Tech CSE at VIT Bhopal with hands-on experience at Persistent Systems.
           </p>
         </div>
 
@@ -59,7 +59,7 @@ const Hero = () => {
           </a>
           
           <a
-            href="mailto:aditya04.dev@gmail.com"
+            href="mailto:tanushree.dev@gmail.com"
             className="group relative px-8 py-4 border-2 border-teal-500 rounded-lg font-semibold transition-all duration-300 hover:border-cyan-400 hover:shadow-lg hover:shadow-teal-500/20 hover:scale-105 flex items-center gap-2"
           >
             <Mail size={20} />

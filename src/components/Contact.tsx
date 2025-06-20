@@ -54,7 +54,7 @@ const Contact = () => {
 
             <div className="space-y-6">
               <a
-                href="mailto:aditya04.dev@gmail.com"
+                href="mailto:tanushree.dev@gmail.com"
                 className="group flex items-center gap-4 p-4 bg-white/5 backdrop-blur-lg rounded-xl border border-white/10 hover:border-blue-400/50 transition-all duration-300 hover:scale-105"
               >
                 <div className="p-3 bg-blue-500/20 rounded-lg border border-blue-400/30">
@@ -64,12 +64,12 @@ const Contact = () => {
                   <div className="font-semibold text-white group-hover:text-blue-400 transition-colors">
                     Email
                   </div>
-                  <div className="text-gray-400">aditya04.dev@gmail.com</div>
+                  <div className="text-gray-400">tanushree.dev@gmail.com</div>
                 </div>
               </a>
 
               <a
-                href="https://linkedin.com/in/aditya-gupta-dev"
+                href="https://linkedin.com/in/tanushree-mishra-dev"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center gap-4 p-4 bg-white/5 backdrop-blur-lg rounded-xl border border-white/10 hover:border-blue-400/50 transition-all duration-300 hover:scale-105"
@@ -86,7 +86,7 @@ const Contact = () => {
               </a>
 
               <a
-                href="https://github.com/aditya04gupta"
+                href="https://github.com/tanushree-mishra"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center gap-4 p-4 bg-white/5 backdrop-blur-lg rounded-xl border border-white/10 hover:border-blue-400/50 transition-all duration-300 hover:scale-105"
@@ -108,7 +108,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <div className="font-semibold text-white">Location</div>
-                  <div className="text-gray-400">Indore, India</div>
+                  <div className="text-gray-400">Mumbai, India</div>
                 </div>
               </div>
             </div>

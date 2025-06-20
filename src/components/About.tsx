@@ -10,15 +10,15 @@ const About = () => {
           
           <div className="prose prose-lg text-blue-100 max-w-none">
             <p className="text-lg md:text-xl leading-relaxed mb-6">
-              I'm a <span className="text-cyan-300 font-semibold">B.Tech CSE student at VIT Bhopal</span> with a deep passion for building scalable software, AI applications, and DevOps systems. My journey in technology is driven by a commitment to creating solutions that don't just work—they make a meaningful impact.
+              I'm a <span className="text-cyan-300 font-semibold">B.Tech CSE student at VIT Bhopal</span> with a deep passion for building scalable software, AI applications, and full-stack web development. My journey in technology is driven by a commitment to creating solutions that don't just work—they make a meaningful impact.
             </p>
             
             <p className="text-lg md:text-xl leading-relaxed mb-6">
-              With hands-on experience from internships at <span className="text-teal-300 font-semibold">Ernst & Young</span> and <span className="text-emerald-300 font-semibold">Persistent Systems</span>, I've developed a strong foundation in full-stack development, cloud technologies, and modern DevOps practices.
+              With hands-on experience from my internship at <span className="text-emerald-300 font-semibold">Persistent Systems</span>, I've developed a strong foundation in MERN stack development, modern web technologies, and software engineering best practices.
             </p>
             
             <p className="text-lg md:text-xl leading-relaxed">
-              I've participated in several national-level hackathons, reaching grand finals and top positions, which has sharpened my ability to innovate under pressure and deliver results that matter. When I'm not coding, you'll find me solving algorithmic challenges or exploring the latest in AI and cloud technologies.
+              I've participated in several national-level hackathons, reaching grand finals and top positions, which has sharpened my ability to innovate under pressure and deliver results that matter. When I'm not coding, you'll find me solving algorithmic challenges or exploring the latest in web development and AI technologies.
             </p>
           </div>
 
@@ -28,8 +28,8 @@ const About = () => {
               <div className="text-blue-300">DSA Problems Solved</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-teal-400 mb-2">2</div>
-              <div className="text-blue-300">Industry Internships</div>
+              <div className="text-3xl font-bold text-teal-400 mb-2">1</div>
+              <div className="text-blue-300">Industry Internship</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold text-emerald-400 mb-2">5+</div>

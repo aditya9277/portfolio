@@ -4,45 +4,45 @@ import { ExternalLink, Github } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
-      name: 'ClientEase AI',
-      description: 'AI-powered client management platform with intelligent automation and analytics',
+      name: 'TaskFlow Pro',
+      description: 'Comprehensive task management platform with intelligent automation and team collaboration',
       image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&fit=crop',
-      technologies: ['React', 'Node.js', 'AI/ML', 'MongoDB'],
-      liveUrl: 'https://client-ease-ai.vercel.app',
+      technologies: ['React', 'Node.js', 'MongoDB', 'Express.js'],
+      liveUrl: 'https://task-flow-pro.vercel.app',
       githubUrl: '#',
       features: [
-        'AI-driven client insights and recommendations',
-        'Automated workflow management',
-        'Real-time analytics dashboard',
-        'Intelligent task prioritization'
+        'Smart task prioritization and scheduling',
+        'Real-time team collaboration tools',
+        'Advanced analytics dashboard',
+        'Automated workflow management'
       ]
     },
     {
-      name: 'MockEdge AI Interview',
-      description: 'Advanced AI interview preparation platform with real-time feedback and analysis',
+      name: 'LearnHub Academy',
+      description: 'Interactive learning platform with personalized course recommendations and progress tracking',
       image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&h=400&fit=crop',
-      technologies: ['Next.js', 'AI/ML', 'WebRTC', 'Python'],
-      liveUrl: 'https://ai-interview-mocker-sepia.vercel.app',
+      technologies: ['React', 'Express.js', 'MongoDB', 'Node.js'],
+      liveUrl: 'https://learn-hub-academy.vercel.app',
       githubUrl: '#',
       features: [
-        'Real-time AI interview simulation',
-        'Behavioral analysis and feedback',
-        'Custom question generation',
-        'Performance tracking and insights'
+        'Personalized learning paths',
+        'Interactive video lessons',
+        'Progress tracking and certificates',
+        'Community discussion forums'
       ]
     },
     {
-      name: 'Vyapar Sync',
-      description: 'Comprehensive business management solution with inventory and sales tracking',
+      name: 'EcoTracker',
+      description: 'Environmental impact tracking application with sustainability insights and recommendations',
       image: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=600&h=400&fit=crop',
-      technologies: ['React', 'Express', 'PostgreSQL', 'Redis'],
+      technologies: ['React', 'Node.js', 'MongoDB', 'Chart.js'],
       liveUrl: '#',
       githubUrl: '#',
       features: [
-        'Real-time inventory management',
-        'Sales analytics and reporting',
-        'Multi-store synchronization',
-        'Automated billing system'
+        'Carbon footprint calculation',
+        'Sustainability goal tracking',
+        'Environmental impact visualization',
+        'Green habit recommendations'
       ]
     }
   ];
