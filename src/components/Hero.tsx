@@ -41,7 +41,7 @@ const Hero = () => {
 
           <p className="text-lg md:text-xl text-blue-200 max-w-3xl mx-auto leading-relaxed">
             From scaling backend systems to building intuitive UIs, I create software that performs and impresses.
-            Currently pursuing B.Tech CSE at VIT Bhopal with hands-on experience at EY and Persistent Systems.
+            Currently pursuing B.Tech CSE at VIT Bhopal University with hands-on experience at EY and Persistent Systems.
           </p>
         </div>
 
