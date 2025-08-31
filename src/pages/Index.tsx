@@ -1,4 +1,3 @@
-
 import { useEffect, useState } from 'react';
 import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
@@ -10,6 +9,8 @@ import Achievements from '@/components/Achievements';
 import Contact from '@/components/Contact';
 import FloatingCTA from '@/components/FloatingCTA';
 import Stats from '@/components/Stats';
+import Testimonials from '@/components/Testimonials';
+import CallToAction from '@/components/CallToAction';
 
 const Index = () => {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
@@ -48,6 +49,8 @@ const Index = () => {
         <Projects />
         <Skills />
         <Achievements />
+        <Testimonials />
+        <CallToAction />
         <Contact />
       </main>
       <FloatingCTA />
