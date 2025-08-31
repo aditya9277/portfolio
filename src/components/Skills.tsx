@@ -1,3 +1,4 @@
+
 const skillCategories = [
   {
     title: 'Languages & Frameworks',
@@ -38,7 +39,7 @@ const skillCategories = [
     skills: [
       {
         name: 'AWS',
-        logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg'
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg'
       },
       {
         name: 'Docker',
@@ -68,7 +69,7 @@ const skillCategories = [
     skills: [
       {
         name: 'Prisma ORM',
-        logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prisma/prisma-original.svg'
+        logo: 'https://raw.githubusercontent.com/prisma/presskit/main/Assets/Prisma-IndigoSymbol.svg'
       },
       {
         name: 'Kafka',
@@ -78,10 +79,6 @@ const skillCategories = [
         name: 'Redis',
         logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg'
       },
-      // {
-      //   name: 'WebSockets',
-      //   logo: 'https://cdn.jsdelivr.net/gh/tabler/tabler-icons/icons/bolt.svg'
-      // },
       {
         name: 'Bash',
         logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg'
@@ -133,16 +130,16 @@ const Skills = () => {
         {/* Quick Stats */}
         <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-6">
           <div className="text-center bg-gradient-to-br from-slate-800/70 to-gray-800/70 backdrop-blur-lg rounded-xl p-4 border border-cyan-500/20">
-            <div className="text-2xl font-bold text-cyan-400 mb-1">400+</div>
+            <div className="text-2xl font-bold text-cyan-400 mb-1">500+</div>
             <div className="text-blue-200 text-sm">DSA Problems</div>
           </div>
           <div className="text-center bg-gradient-to-br from-slate-800/70 to-gray-800/70 backdrop-blur-lg rounded-xl p-4 border border-teal-500/20">
-            <div className="text-2xl font-bold text-teal-400 mb-1">1600+</div>
-            <div className="text-blue-200 text-sm">LeetCode Rating</div>
+            <div className="text-2xl font-bold text-teal-400 mb-1">1873</div>
+            <div className="text-blue-200 text-sm">LeetCode (Knight)</div>
           </div>
           <div className="text-center bg-gradient-to-br from-slate-800/70 to-gray-800/70 backdrop-blur-lg rounded-xl p-4 border border-emerald-500/20">
-            <div className="text-2xl font-bold text-emerald-400 mb-1">1056</div>
-            <div className="text-blue-200 text-sm">Codeforces Max</div>
+            <div className="text-2xl font-bold text-emerald-400 mb-1">1287</div>
+            <div className="text-blue-200 text-sm">Codeforces (Pupil)</div>
           </div>
           <div className="text-center bg-gradient-to-br from-slate-800/70 to-gray-800/70 backdrop-blur-lg rounded-xl p-4 border border-orange-500/20">
             <div className="text-2xl font-bold text-orange-400 mb-1">5+</div>

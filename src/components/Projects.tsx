@@ -1,4 +1,3 @@
-
 import { ExternalLink, Github } from 'lucide-react';
 
 const Projects = () => {
@@ -8,7 +7,7 @@ const Projects = () => {
       description: 'AI-powered client management platform with intelligent automation and analytics',
       image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&fit=crop',
       technologies: ['React', 'Node.js', 'AI/ML', 'MongoDB'],
-      liveUrl: 'https://client-ease-ai.vercel.app',
+      liveUrl: 'https://client-ease-ai.vercel.app/',
       githubUrl: '#',
       features: [
         'AI-driven client insights and recommendations',
@@ -22,7 +21,7 @@ const Projects = () => {
       description: 'Advanced AI interview preparation platform with real-time feedback and analysis',
       image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&h=400&fit=crop',
       technologies: ['Next.js', 'AI/ML', 'WebRTC', 'Python'],
-      liveUrl: 'https://ai-interview-mocker-sepia.vercel.app',
+      liveUrl: 'https://ai-interview-mocker-sepia.vercel.app/',
       githubUrl: '#',
       features: [
         'Real-time AI interview simulation',

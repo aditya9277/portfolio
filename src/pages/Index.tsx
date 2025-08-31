@@ -1,4 +1,3 @@
-
 import { useEffect, useState } from 'react';
 import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
@@ -43,8 +42,8 @@ const Index = () => {
         <Hero />
         <About />
         <Experience />
-        <Projects />
         <Skills />
+        <Projects />
         <Achievements />
         <Contact />
       </main>
